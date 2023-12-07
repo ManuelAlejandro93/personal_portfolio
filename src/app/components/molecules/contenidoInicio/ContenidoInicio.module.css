@@ -1,0 +1,110 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1c20;
+}
+
+.contenido {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textosHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1Header {
+  color: white;
+  font-size: 60px;
+}
+
+.advertencia{
+  color: red;
+}
+
+.pHeader {
+  color: #cff1f1b4;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.ImagenManuel {
+  border-radius: 50%;
+  transition: ease-out 0.5s;
+}
+
+.ImagenManuel:hover {
+  transform: scale(1.1);
+}
+
+
+@media (min-width: 320px) {
+  .textosHeader{
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .h1Header{
+    font-size: 25px;
+    width: 100%;
+    text-justify: center;
+    justify-content: center;
+  }
+
+   .pHeader{
+   font-size: 15px;
+  }
+
+  .ImagenManuel{
+    width: 150px;
+    height: 150px;
+  } 
+}
+
+@media (min-width: 768px) {
+
+  .h1Header{
+    font-size: 45px;
+  }
+
+   .pHeader{
+   font-size: 20px;
+  }
+
+  .ImagenManuel{
+    width: 300px;
+    height: 300px;
+  } 
+}
+
+@media (min-width: 1024px) {
+
+  .h1Header{
+    font-size: 50px;
+  }
+   .pHeader{
+   font-size: 30px;
+  }
+}
+
+
+@media (min-width: 1900px) {
+
+  .h1Header{
+    font-size: 100px;
+  }
+
+   .pHeader{
+   font-size: 50px;
+  }
+
+  .ImagenManuel{
+    width: 500px;
+    height: 500px;
+  } 
+
+}

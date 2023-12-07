@@ -1,0 +1,35 @@
+.main {
+    position: relative;
+    bottom: 1px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1c20;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedor{
+    width: 90%;
+    height: 86%;
+    display: grid;
+  }
+  
+  
+  @media (min-width: 320px) {
+    .contenedor {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      column-gap: 10px;
+      row-gap: 10px;
+    }
+  }
+  
+  @media (min-width: 426px) {
+    .contenedor {
+      margin-top: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+  }

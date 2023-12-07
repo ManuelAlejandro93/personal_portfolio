@@ -1,0 +1,76 @@
+.gatilloMenu {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.hamburguesa {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #1a1c20;
+}
+
+.hamburguesa .linea {
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.menuDesplegable {
+  display: none;
+}
+
+.gatilloMenu:checked ~ .labelDeGatillo .linea:nth-child(1) {
+  transform: rotate(45deg) translateY(8px) translateX(8px);
+}
+
+.gatilloMenu:checked ~ .labelDeGatillo .linea:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px) translateX(8px);
+}
+
+/* Esto estaba mal llamado. */
+.gatilloMenu:checked ~ .menuDesplegable {
+  display: block;
+  background-color: #1a1c20;
+  width: 100vw;
+  height: 50vh;
+  position: fixed;
+  top: 55px;
+  left: 0px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuDesplegable .links {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+
+.links:hover{
+  width: 100%;
+  background-color: #f9813a;
+}
+
+@media(min-width: 768px){
+  .macroMenuHamburguesa{
+    display: none;
+  }
+}

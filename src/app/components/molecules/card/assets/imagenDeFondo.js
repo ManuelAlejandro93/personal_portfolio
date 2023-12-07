@@ -1,0 +1,1 @@
+export const imagenDeFondo = 'https://wallpapers.com/images/hd/8k-space-6hgjkf0fx2v4hczy.jpg';
