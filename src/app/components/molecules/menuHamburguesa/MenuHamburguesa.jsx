@@ -1,12 +1,8 @@
-'use client'
 import Link from "next/link";
-import styles from "./menuHamburguesa.module.css";
-import {esconderMenuDesplegable} from './funciones/funcionesMenuHamburguesa.js';
-import { useState } from "react";
-
+import styles from "./MenuHamburguesa.module.css";
 
 export default function MenuHamburguesa() {
-  const [isChecked,setIsChecked] = useState(false);
+ 
   return (
     <>
       <div className={styles.macroMenuHamburguesa}>
