@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./MenuHamburguesa.module.css";
+import styles from './MenuHamburguesa.module.css';
 
 export default function MenuHamburguesa() {
  
