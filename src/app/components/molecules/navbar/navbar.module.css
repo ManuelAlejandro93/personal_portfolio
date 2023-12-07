@@ -32,7 +32,7 @@
   text-align: center;
   border-radius: 12px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 1s;
   padding-top: 5px;
   margin-left: 15px;
   text-decoration: none;
@@ -40,6 +40,9 @@
 }
 
 .links:hover {
+  border-left: 10px dotted #f9813a;
+  border-right: 10px dotted #f9813a;
+  border-radius: 9px;
   background-color: #f9813a;
 }
 
