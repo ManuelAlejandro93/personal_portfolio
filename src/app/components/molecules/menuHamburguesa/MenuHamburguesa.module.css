@@ -27,10 +27,6 @@
   transition: all 0.5s ease;
 }
 
-.menuDesplegable {
-  display: none;
-}
-
 .gatilloMenu:checked ~ .labelDeGatillo .linea:nth-child(1) {
   transform: rotate(45deg) translateY(8px) translateX(8px);
 }
@@ -39,9 +35,7 @@
   transform: rotate(-45deg) translateY(-8px) translateX(8px);
 }
 
-/* Esto estaba mal llamado. */
-.gatilloMenu:checked ~ .menuDesplegable {
-  display: block;
+.menuDesplegableVisible {
   background-color: #1a1c20;
   width: 100vw;
   height: 50vh;
@@ -51,10 +45,13 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.menuDesplegable .links {
+.menuDesplegableInvisible {
+  display: none;
+}
+
+.links {
   display: block;
   padding: 10px;
   text-decoration: none;
@@ -62,7 +59,6 @@
   text-align: center;
   transition: 0.5s;
 }
-
 
 .links:hover{
   width: 100%;
