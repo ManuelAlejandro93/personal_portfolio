@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
-import MenuHamburguesa from "../menuHamburguesa/MenuHamburguesa";
+// import MenuHamburguesa from "../menuHamburguesa/MenuHamburguesa";
 
 
 export default function NavBar() {
@@ -37,7 +37,7 @@ export default function NavBar() {
           </Link>
         </div>
 
-        <MenuHamburguesa></MenuHamburguesa>
+        {/* <MenuHamburguesa></MenuHamburguesa> */}
       </nav>
     </>
   );
