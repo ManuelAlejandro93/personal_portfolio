@@ -5,7 +5,7 @@ import { useState,useEffect } from "react";
 import {asignarClaseParaElMenuDesplegable} from './funciones/funcionesMenuHamburguesa';
 
 export default function MenuHamburguesa() {
-  const [estadoGatillo,setEstadoGatillo] = useState(false);
+  const [estadoGatillo,setEstadoGatillo] = useState(true);
 
   const [estadoDesplegable,setEstadoDesplegable] = useState(`${styles.menuDesplegable} ${styles.menuDesplegableInvisible}`);
 
