@@ -8,7 +8,7 @@ export default function NavBar() {
       <nav className={styles.navbar}>
         <Link href={"/"} className={styles.portfolio}>
           {" "}
-          <i>Portfolio</i>
+          <i>Portafolio</i>
         </Link>
         <div className={styles.contenedorLinks}>
           <Link className={styles.links} href={"/"}>
