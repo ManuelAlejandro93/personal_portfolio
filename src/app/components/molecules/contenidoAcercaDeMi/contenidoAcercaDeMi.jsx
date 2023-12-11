@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./contenidoAcercaDeMi.module.css";
 
 export default function ContenidoAcercaDeMi() {
@@ -5,11 +6,16 @@ export default function ContenidoAcercaDeMi() {
     <>
       <main className={styles.main}>
         <div className={styles.contenedor}>
-          <div className={`${styles.divIzquierda} ${styles.foto}`}></div>
+          <Image src="/fotoAcercaDeMi/foto.jpeg"
+            width={600}
+            height={400}
+            alt="Foto del Dev Manuel"
+            priority={true}
+            className= {styles.foto}></Image>
+          
           <div className= {styles.divDerecha}>
-            <p className= {styles.titulo}>¿Quién soy?</p>
             <p className= {`${styles.parrafo} ${styles.parrafo1}`}>
-            ¡Hola! me llamo Manuel Alejandro Pinzón Aguirre y tengo 29 años, soy un colombiano y armenita. Biker de toda la vida, un buen lector y obviamente también un enamorado del mundo del desarrollo.
+            Me llamo Manuel Pinzón. Soy un desarrollador FrontEnd y un deportista amateur muy competitivo.
             </p>
             <p className= {`${styles.parrafo} ${styles.parrafo2}`}>Además me he especialiado en desarrollo front-end y encuentro mucha motivacion el desarrollo web en general. </p>
 
