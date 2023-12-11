@@ -12,11 +12,9 @@
   
   .contenedor{
     width: 90%;
-    height: 86%;
+    height: 80%;
     display: grid;
-    
   }
-  
   
   @media (min-width: 320px) {
     .contenedor {
