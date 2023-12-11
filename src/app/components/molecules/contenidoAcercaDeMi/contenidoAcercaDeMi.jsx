@@ -20,23 +20,11 @@ export default function ContenidoAcercaDeMi() {
               deportista amateur muy competitivo.
             </p>
             <p className={`${styles.parrafos} ${styles.parrafo2}`}>
-              Soy un operador del Framework Next.js y la libería React.js, además he tenido cercania a Material UI Dart, Flutter, SQL, PL/SQL y Python de manera profesional.
+              Soy un operador del Framework Next.js y la libería React.js, además he tenido cercania a Material UI, Dart, Flutter, SQL, PL/SQL y Python de manera profesional.
             </p>
 
             <p className={`${styles.parrafos} ${styles.parrafo3}`}>
               Mi experiencia empieza en la empresa Avidbots, donde ejercí el desarrollo de programas de limpieza automatizada para Robots, trabajando con un poco de Python, metodología Canvas, y tickets de asignación de tareas.
-            </p>
-
-            <p className={`${styles.parrafos} ${styles.parrafo4}`}>
-              Conocí la programación cuando tuve que estudiar C++ para los
-              proyectos de la universidad, y sinceramente debo admitir que
-              hicimos match automático. Poder hablar el lenguaje de las maquinas
-              es simplemente fascinante.
-            </p>
-
-            <p className={`${styles.parrafos} ${styles.parrafo5}`}>
-              En esta etapa de mi vida me apasiona el desarrollo front-end, en
-              la tecnología React y el framework Next.
             </p>
           </div>
         </div>

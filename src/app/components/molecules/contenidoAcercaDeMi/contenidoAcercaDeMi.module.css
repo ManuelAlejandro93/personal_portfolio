@@ -105,3 +105,14 @@
     display: block;
   }
 }
+
+@media (min-width: 2560px){
+  .foto{
+    width: auto;
+    height: 1000px;
+  }
+
+  .parrafos {
+    font-size: 37px;
+  }
+}
