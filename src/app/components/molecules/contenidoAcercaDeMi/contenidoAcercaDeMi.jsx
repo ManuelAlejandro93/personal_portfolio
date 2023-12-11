@@ -24,10 +24,7 @@ export default function ContenidoAcercaDeMi() {
             </p>
 
             <p className={`${styles.parrafos} ${styles.parrafo3}`}>
-              Mis motivaciones en la vida se mantienen en un buen vivir diario,
-              y en el aprecio de las cosas pequeñas. Disfruto mucho los nuevos
-              retos que me recuerden que la vida es bella y retadora en sus
-              facetas más simples y más complejas.
+              Mi experiencia empieza en la empresa Avidbots, donde ejercí el desarrollo de programas de limpieza automatizada para Robots, trabajando con un poco de Python, metodología Canvas, y tickets de asignación de tareas.
             </p>
 
             <p className={`${styles.parrafos} ${styles.parrafo4}`}>

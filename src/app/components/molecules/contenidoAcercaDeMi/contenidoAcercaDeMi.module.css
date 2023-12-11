@@ -78,3 +78,30 @@
     display: block;
   }
 }
+
+@media (min-width: 1024px){
+  .foto{
+    width: auto;
+    height: 510px;
+  }
+
+  .parrafos {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 1024px){
+  .foto{
+    width: auto;
+    height: 620px;
+  }
+
+  .parrafos {
+    font-size: 24px;
+  }
+
+  .parrafo3 {
+    display: block;
+  }
+}
