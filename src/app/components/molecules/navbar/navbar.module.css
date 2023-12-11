@@ -57,3 +57,24 @@
     display: block;
   } 
 }
+
+@media (min-width: 1440px){
+.portfolio{
+  font-size: 45px;
+}
+
+  .links {
+    font-size: 22px;
+  } 
+}
+
+@media (min-width: 2560px){
+  .portfolio{
+    font-size: 70px;
+  }
+  
+    .links {
+      font-size: 38px;
+      margin-left: 40px;
+    } 
+  }
