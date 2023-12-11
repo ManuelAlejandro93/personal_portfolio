@@ -5,7 +5,6 @@ export default function ContenidoInicio() {
   return (
     <> 
        <main className={stylesContenidoInicio.main}>
-
         <div className={stylesContenidoInicio.contenido}>
           <div className={stylesContenidoInicio.textosHeader}>
             <h1 className={stylesContenidoInicio.h1Header}>Manuel Pinzón Aguirre</h1>
@@ -20,6 +19,7 @@ export default function ContenidoInicio() {
             height={270}
             alt="Foto del Dev Manuel"
             className={stylesContenidoInicio.ImagenManuel}
+            priority={true}
           ></Image>
         </div>
       </main> 
