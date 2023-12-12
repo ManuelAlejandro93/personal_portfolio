@@ -48,14 +48,3 @@ export function asignarLinkDeHref(seccionOrigen, infoCardIndividual) {
     return "https://sass-lang.com/"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
