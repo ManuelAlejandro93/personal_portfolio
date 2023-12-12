@@ -1,5 +1,3 @@
-
-
 .main {
     position: relative;
     bottom: 1px;
@@ -14,11 +12,11 @@
     width: 90%;
     height: 70%;
     display: grid;
-    background-color: red;
   }
   
   @media (min-width: 320px) {
     .contenedor {
+      height: 70%;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       column-gap: 3px;
@@ -33,5 +31,11 @@
       grid-template-rows: 1fr 1fr;
       column-gap: 3px;
       row-gap: 3px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .contenedor {
+      height: 80%;
     }
   }
