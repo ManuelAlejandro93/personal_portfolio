@@ -65,13 +65,32 @@ function asignarLinkEnHabilidades(infoCardIndividual) {
   }
 };
 
-export function asignarLinkDeHref(seccionOrigen, infoCardIndividual) {
 
+function asignarLinkEnEstudios(infoCardIndividual) {
+  if (infoCardIndividual === "uniquindio") {
+    return "https://www.uniquindio.edu.co/programas/publicaciones/316/ingenieria-de-alimentos/"
+  } else if (infoCardIndividual === "devtools") {
+    return "https://www.linkedin.com/posts/manuelpinzon_its-nice-to-share-this-achievement-here-activity-7128515387104595968-Cb9u?utm_source=share&utm_medium=member_desktop"
+  } else if (infoCardIndividual === "freeCodeCamp") {
+    return "https://www.freecodecamp.org/certification/Manuel-Alejandro-Pinzon-Aguirre/responsive-web-design"
+  } else if (infoCardIndividual === "platzi") {
+    return "https://platzi.com/p/clasefisica2019/curso/3208-programacion-basica/diploma/detalle/"
+  } else if (infoCardIndividual === "openBootCamp") {
+    return "https://open-bootcamp.com/"
+  } else if (infoCardIndividual === "youTube") {
+    return "https://www.youtube.com/@devtoolsacademy/featured"
+  } else {
+    return "https://wa.me/+573143415131?text=Hola,%20Manuel%20¿Cómo%20estás%3F%20%20Te%20%20queremos%20conocer%20en%20tu%20ámbito%20laboral%20por%20favor%20responde%20en%20cuanto%20veas%20el%20mensaje%20..."
+  }
+};
+
+export function asignarLinkDeHref(seccionOrigen, infoCardIndividual) {
   if (seccionOrigen === "contacto") {
     let respuesta = asignarLinkEnContacto(infoCardIndividual);
     return respuesta;
   } else if (seccionOrigen === "estudios") {
-    return "https://www.uniquindio.edu.co/"
+    let respuesta = asignarLinkEnEstudios(infoCardIndividual);
+    return respuesta
   } else if (seccionOrigen === "proyectos") {
     let respuesta = asignarLinkEnProyectos(infoCardIndividual);
     return respuesta

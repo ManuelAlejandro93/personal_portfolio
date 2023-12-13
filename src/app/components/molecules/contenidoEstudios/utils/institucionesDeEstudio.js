@@ -1,4 +1,4 @@
-export const nombreCards = {
+export const institucionDeEstudio = {
     uniquindio: "uniquindio",
     devtools: "devtools",
     freeCodeCamp: "freeCodeCamp",

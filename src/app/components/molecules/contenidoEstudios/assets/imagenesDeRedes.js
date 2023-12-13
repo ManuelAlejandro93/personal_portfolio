@@ -1,4 +1,4 @@
-export const redes = {
+export const imagenRedes = {
     uniquindio: 'https://www.escueladidactica.com/wp-content/uploads/2020/05/cliente-uniquindio.png',
     devtools: 'https://yt3.googleusercontent.com/cd6oOVGwEkZ9OWt9V6bg9xQbe_KUOMX3IIR8k0-bcbweyb2xhq-6iPq1P2OX5_8RT2iX7PeHpg=s900-c-k-c0x00ffffff-no-rj',
     freeCodeCamp: 'https://s3.amazonaws.com/freecodecamp/freecodecamp_logo_transparent.png',
