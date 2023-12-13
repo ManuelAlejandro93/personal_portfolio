@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "./card.module.css";
 import { imagenDeFondo } from "./assets/imagenDeFondo";
 import {

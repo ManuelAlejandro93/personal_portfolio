@@ -35,6 +35,32 @@ function asignarLinkEnContacto(infoCardIndividual) {
   }
 };
 
+function asignarLinkEnProyectos(infoCardIndividual) {
+  if (infoCardIndividual === "hotels") {
+    return
+  } else {
+    return
+  }
+};
+
+function asignarLinkEnHabilidades(infoCardIndividual) {
+  if (infoCardIndividual === "github") {
+    return "https://github.com/ManuelAlejandro93"
+  } else if (infoCardIndividual === "git") {
+    return "https://git-scm.com/"
+  } else if (infoCardIndividual === "react") {
+    return "https://es.react.dev/"
+  } else if (infoCardIndividual === "next") {
+    return "https://nextjs.org/"
+  } else if (infoCardIndividual === "sass") {
+    return "https://sass-lang.com/"
+  } else if (infoCardIndividual === "htmlCssJS") {
+    return "https://ecma-international.org/"
+  } else {
+    return "https://wa.me/+573143415131?text=Hola,%20Manuel%20¿Cómo%20estás%3F%20%20Te%20%20queremos%20conocer%20en%20tu%20ámbito%20laboral%20por%20favor%20responde%20en%20cuanto%20veas%20el%20mensaje%20..."
+  }
+};
+
 export function asignarLinkDeHref(seccionOrigen, infoCardIndividual) {
 
   if (seccionOrigen === "contacto") {
@@ -43,8 +69,10 @@ export function asignarLinkDeHref(seccionOrigen, infoCardIndividual) {
   } else if (seccionOrigen === "estudios") {
     return "https://www.uniquindio.edu.co/"
   } else if (seccionOrigen === "proyectos") {
-    return "https://reto4-hotels-eh1cx7fqc.vercel.app/"
+    let respuesta = asignarLinkEnProyectos(infoCardIndividual);
+    return respuesta
   } else if (seccionOrigen === "habilidades") {
-    return "https://sass-lang.com/"
+    let respuesta = asignarLinkEnHabilidades(infoCardIndividual);
+    return respuesta
   }
 }
