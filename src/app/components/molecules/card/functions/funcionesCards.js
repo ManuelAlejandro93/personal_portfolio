@@ -37,9 +37,13 @@ function asignarLinkEnContacto(infoCardIndividual) {
 
 function asignarLinkEnProyectos(infoCardIndividual) {
   if (infoCardIndividual === "hotels") {
-    return
+    return 'https://reto4-hotels.vercel.app/'
+  } else if (infoCardIndividual === "bookit") {
+    return 'https://manuelalejandro93.github.io/hotels_deployment/'
+  } else if (infoCardIndividual === "swipe") {
+    return 'https://manuelalejandro93.github.io/Page-Swipe_1/'
   } else {
-    return
+    return 'https://wa.me/+573143415131?text=Hola,%20Manuel%20¿Cómo%20estás%3F%20%20Te%20%20queremos%20conocer%20en%20tu%20ámbito%20laboral%20por%20favor%20responde%20en%20cuanto%20veas%20el%20mensaje%20...'
   }
 };
 

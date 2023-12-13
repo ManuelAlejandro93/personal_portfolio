@@ -4,7 +4,7 @@ import { imagenes } from "./assets/imagenesDeTecnologias";
 import { nombreCards } from "./assets/nombreCardsIndividuales";
 
 
-let nombreDeSeccionEnHabilidades = "habilidades";
+let seccion = "habilidades";
 
 export default function ContenidoHabilidades() {
   return (
@@ -15,20 +15,20 @@ export default function ContenidoHabilidades() {
             foto={imagenes.next}
             texto1={""}
             texto3={""}
-            seccionOrigen={nombreDeSeccionEnHabilidades}
+            seccionOrigen={seccion}
             infoCardIndividual = {nombreCards.next}
           ></Card>
-          <Card foto={imagenes.react} texto1={""} texto3={""} seccionOrigen={nombreDeSeccionEnHabilidades}
+          <Card foto={imagenes.react} texto1={""} texto3={""} seccionOrigen={seccion}
           infoCardIndividual = {nombreCards.react}
           ></Card>
-          <Card foto={imagenes.github} texto1={""} texto3={""} seccionOrigen={nombreDeSeccionEnHabilidades}
+          <Card foto={imagenes.github} texto1={""} texto3={""} seccionOrigen={seccion}
           
           infoCardIndividual = {nombreCards.github}></Card>
-          <Card foto={imagenes.git} texto1={""} texto3={""} seccionOrigen={nombreDeSeccionEnHabilidades}
+          <Card foto={imagenes.git} texto1={""} texto3={""} seccionOrigen={seccion}
           infoCardIndividual = {nombreCards.git}></Card>
-          <Card foto={imagenes.sass} texto1={""} texto3={""} seccionOrigen={nombreDeSeccionEnHabilidades}
+          <Card foto={imagenes.sass} texto1={""} texto3={""} seccionOrigen={seccion}
           infoCardIndividual = {nombreCards.sass}></Card>
-          <Card foto={imagenes.htmlCssJS} texto1={""} texto3={""} seccionOrigen={nombreDeSeccionEnHabilidades}
+          <Card foto={imagenes.htmlCssJS} texto1={""} texto3={""} seccionOrigen={seccion}
           infoCardIndividual = {nombreCards.htmlCssJS}></Card>
         </div>
       </main>
