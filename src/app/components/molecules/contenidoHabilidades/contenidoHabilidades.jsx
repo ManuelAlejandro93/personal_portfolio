@@ -3,7 +3,6 @@ import styles from "./contenidoHabilidades.module.css";
 import { imagenes } from "./assets/imagenesDeTecnologias";
 import { nombreCards } from "./assets/nombreCardsIndividuales";
 
-
 let seccion = "habilidades";
 
 export default function ContenidoHabilidades() {
@@ -13,23 +12,34 @@ export default function ContenidoHabilidades() {
         <div className={styles.contenedor}>
           <Card
             foto={imagenes.next}
-            texto1={""}
-            texto3={""}
             seccionOrigen={seccion}
-            infoCardIndividual = {nombreCards.next}
+            infoCardIndividual={nombreCards.next}
           ></Card>
-          <Card foto={imagenes.react} texto1={""} texto3={""} seccionOrigen={seccion}
-          infoCardIndividual = {nombreCards.react}
+          <Card
+            foto={imagenes.react}
+            seccionOrigen={seccion}
+            infoCardIndividual={nombreCards.react}
           ></Card>
-          <Card foto={imagenes.github} texto1={""} texto3={""} seccionOrigen={seccion}
-          
-          infoCardIndividual = {nombreCards.github}></Card>
-          <Card foto={imagenes.git} texto1={""} texto3={""} seccionOrigen={seccion}
-          infoCardIndividual = {nombreCards.git}></Card>
-          <Card foto={imagenes.sass} texto1={""} texto3={""} seccionOrigen={seccion}
-          infoCardIndividual = {nombreCards.sass}></Card>
-          <Card foto={imagenes.htmlCssJS} texto1={""} texto3={""} seccionOrigen={seccion}
-          infoCardIndividual = {nombreCards.htmlCssJS}></Card>
+          <Card
+            foto={imagenes.github}
+            seccionOrigen={seccion}
+            infoCardIndividual={nombreCards.github}
+          ></Card>
+          <Card
+            foto={imagenes.git}
+            seccionOrigen={seccion}
+            infoCardIndividual={nombreCards.git}
+          ></Card>
+          <Card
+            foto={imagenes.sass}
+            seccionOrigen={seccion}
+            infoCardIndividual={nombreCards.sass}
+          ></Card>
+          <Card
+            foto={imagenes.htmlCssJS}
+            seccionOrigen={seccion}
+            infoCardIndividual={nombreCards.htmlCssJS}
+          ></Card>
         </div>
       </main>
     </>
