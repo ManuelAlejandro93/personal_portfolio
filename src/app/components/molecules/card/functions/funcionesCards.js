@@ -42,7 +42,27 @@ function asignarLinkEnProyectos(infoCardIndividual) {
     return 'https://manuelalejandro93.github.io/hotels_deployment/'
   } else if (infoCardIndividual === "swipe") {
     return 'https://manuelalejandro93.github.io/Page-Swipe_1/'
-  } else {
+  } 
+  
+  else if (infoCardIndividual === "technical_documentation") {
+    return 'https://manuelalejandro93.github.io/technical_Page/'
+  } 
+  
+  else if (infoCardIndividual === "landing_page") {
+    return 'https://manuelalejandro93.github.io/landingPage1/'
+  }
+
+  
+  else if (infoCardIndividual === "dr_norman_page") {
+    return 'https://manuelalejandro93.github.io/DrNomanTributePage/'
+  }
+
+  else if (infoCardIndividual === "landing_page") {
+    return 'https://manuelalejandro93.github.io/landingPage1/'
+  }
+
+  // por defecto redirige a whatsApp.
+  else {
     return 'https://wa.me/+573143415131?text=Hola,%20Manuel%20¿Cómo%20estás%3F%20%20Te%20%20queremos%20conocer%20en%20tu%20ámbito%20laboral%20por%20favor%20responde%20en%20cuanto%20veas%20el%20mensaje%20...'
   }
 };

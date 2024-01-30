@@ -40,14 +40,14 @@ export default function ContenidoProyectos() {
             texto1={"Survey Form."}
             texto3={"HTML + CSS"}
             seccionOrigen={nombreDeSeccionEnProyectos}
-            infoCardIndividual = {nombreCards.survey_form}
+            infoCardIndividual = {nombreCards.landing_page}
           ></Card>
           <Card
-            texto1={"Tribute Page"}
+            texto1={"Dr Norman tribute page."}
             texto2={"algo"}
             texto3={"HTML + CSS"}
             seccionOrigen={nombreDeSeccionEnProyectos}
-            infoCardIndividual = {nombreCards.tribute_page}
+            infoCardIndividual = {nombreCards.dr_norman_page}
           ></Card>
         </div>
       </main>
