@@ -37,7 +37,7 @@ export default function ContenidoProyectos() {
           ></Card>
           <Card
             texto1={'To-do-app'}
-            texto3={'HTML + CSS'}
+            texto3={'TS + React + Jest + Testing Library'}
             seccionOrigen={nombreDeSeccionEnProyectos}
             infoCardIndividual={nombreCards.todoApp}
           ></Card>
