@@ -39,8 +39,8 @@ function asignarLinkEnProyectos(infoCardIndividual) {
     return 'https://manuelalejandro93.github.io/hotels_deployment/';
   } else if (infoCardIndividual === 'swipe') {
     return 'https://manuelalejandro93.github.io/Page-Swipe_1/';
-  } else if (infoCardIndividual === 'technical_documentation') {
-    return 'https://manuelalejandro93.github.io/technical_Page/';
+  } else if (infoCardIndividual === 'to-do-app') {
+    return 'https://todo-app-react-ts-topaz.vercel.app/';
   } else if (infoCardIndividual === 'landing_page') {
     return 'https://manuelalejandro93.github.io/landingPage1/';
   } else if (infoCardIndividual === 'gif_expert') {

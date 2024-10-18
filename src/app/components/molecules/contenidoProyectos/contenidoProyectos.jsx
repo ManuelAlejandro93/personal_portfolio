@@ -36,10 +36,10 @@ export default function ContenidoProyectos() {
             infoCardIndividual={nombreCards.gif_expert}
           ></Card>
           <Card
-            texto1={'Technical Documentation.'}
+            texto1={'To-do-app'}
             texto3={'HTML + CSS'}
             seccionOrigen={nombreDeSeccionEnProyectos}
-            infoCardIndividual={nombreCards.technical_documentation}
+            infoCardIndividual={nombreCards.todoApp}
           ></Card>
           <Card
             texto1={'Survey Form.'}
