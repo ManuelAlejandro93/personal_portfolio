@@ -10,6 +10,12 @@ export default function ContenidoProyectos() {
       <main className={styles.main}>
         <div className={styles.contenedor}>
           <Card
+            texto1={'Personal Components Library'}
+            texto3={'Next & TS & Tailwind & Shadcn'}
+            seccionOrigen={nombreDeSeccionEnProyectos}
+            infoCardIndividual={nombreCards.personalComponents}
+          ></Card>
+          <Card
             texto1={'Hotels.'}
             texto3={'Next & React'}
             seccionOrigen={nombreDeSeccionEnProyectos}
@@ -40,12 +46,6 @@ export default function ContenidoProyectos() {
             texto3={'TS + React + Jest + Testing Library'}
             seccionOrigen={nombreDeSeccionEnProyectos}
             infoCardIndividual={nombreCards.todoApp}
-          ></Card>
-          <Card
-            texto1={'Survey Form.'}
-            texto3={'HTML + CSS'}
-            seccionOrigen={nombreDeSeccionEnProyectos}
-            infoCardIndividual={nombreCards.landing_page}
           ></Card>
         </div>
       </main>

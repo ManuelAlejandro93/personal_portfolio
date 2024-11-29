@@ -47,6 +47,8 @@ function asignarLinkEnProyectos(infoCardIndividual) {
     return 'https://gif-expert-testing-k18s.vercel.app/';
   } else if (infoCardIndividual === 'landing_page') {
     return 'https://manuelalejandro93.github.io/landingPage1/';
+  } else if (infoCardIndividual === 'personalComponents') {
+    return 'https://headless-components-on-ts-u7ki.vercel.app/Pages/dialog';
   }
 
   // por defecto redirige a whatsApp.
